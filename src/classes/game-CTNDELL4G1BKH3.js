@@ -1,5 +1,5 @@
-import Room from './room.mjs'
-import Player from './player.mjs'
+import Room from './room.js'
+import Player from './player.js'
 
 export default class Game {
     constructor() {

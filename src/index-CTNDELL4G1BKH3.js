@@ -1,5 +1,5 @@
-import Game from './classes/game.mjs'
-import { deck } from './mock/monsterMock.mjs'
+import Game from './classes/game.js'
+import { deck } from './mock/monsterMock.js'
 
 const game = new Game()
 
@@ -28,6 +28,11 @@ game.addManaToPlayer({
     playerId: player.id,
     quantity: 2
 })
+
+console.log(game.removePlayer({
+    roomId: playerTwo.room.id,
+    playerId: playerTwo.player.id
+}))
 
 // console.log(game.ROOMS.get(room.id).players.get(player.id))
 // console.log(game.ROOMS.get(room.id).players.get(playerTwo.player.id))
