@@ -1,0 +1,13 @@
+{
+  "name": "cardgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
