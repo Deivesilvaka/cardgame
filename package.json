@@ -1,13 +1,13 @@
 {
   "name": "cardgame",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node src/index"
+    "test": "node test/game.test.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Deivesilvaka",
+  "license": "MIT"
 }

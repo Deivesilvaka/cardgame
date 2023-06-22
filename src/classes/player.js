@@ -5,13 +5,14 @@ export default class Player {
 
         this.mana = 0
         this.mana_limit = 15
-        this.shields = 5
+        this.shieldQuantity = 5
+        this.shields = []
 
         this.deck = deck
         this.hand_cards = []
         this.hand_card_limit = 7
         this.cemetery_deck = []
-        this.monters_on_board = []
+        this.monsters_on_board = []
 
         this.shuffleDeck()
         this.drawCard(5)
@@ -54,5 +55,9 @@ export default class Player {
         }
         
         return this
+    }
+
+    discartCard({ card }) {
+        this.cemetery_deck.push(card)
     }
 }
