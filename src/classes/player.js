@@ -12,7 +12,7 @@ export default class Player {
         this.hand_cards = []
         this.hand_card_limit = 7
         this.cemetery_deck = []
-        this.monters_on_board = []
+        this.monsters_on_board = []
 
         this.shuffleDeck()
         this.drawCard(5)

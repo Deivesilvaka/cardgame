@@ -2,7 +2,7 @@ import { BOARD_TYPE } from '../helpers/types'
 export default class Room {
     constructor() {
         this.id = `${Date.now()}${Math.random()}`
-        this.maxMonters = 3
+        this.maxMonsters = 3
         this.players = new Map()
     }
 
